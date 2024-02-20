@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    background-color: #333336;
+}
+
+.container {
+    width: 200px;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+    transition: .35s;
+    transform-origin: center;
+    box-shadow: -2px 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+.container:hover {
+    transform: perspective(1000px) rotateY(10deg);
+    box-shadow: -5px 8px 16px rgba(0, 0, 0, 1.5);
+    animation: lightPass 2s infinite alternate;
+}
+
+.cardId {
+    width: 100%;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+.cardImg {
+    padding: 20px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: #28292d;
+}
+
+.cardName {
+    padding-top: 15px;
+    display: flex;
+    font-size: 13px;
+    justify-content: center;
+}

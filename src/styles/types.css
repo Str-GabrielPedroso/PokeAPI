@@ -1,0 +1,163 @@
+.types {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.typesContainer {
+    font-size: 14px;
+    padding: 5px 14px;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: #28292d;
+    color: #e7e6e6;
+}
+
+.normal {
+    background-color: #a8a878;
+}
+
+.fire {
+    background-color: #ee8130;
+}
+
+.water {
+    background-color: #6390f0;
+}
+
+.electric {
+    background-color: #e0bd31;
+}
+
+.grass {
+    background-color: #68ad40;
+}
+
+.ice {
+    background-color: #96d9d6;
+}
+
+.fighting {
+    background-color: #c22e28;
+}
+
+.poison {
+    background-color: #a33ea1;
+}
+
+.ground {
+    background-color: #d3b363;
+}
+
+.flying {
+    background-color: #a98ff3;
+}
+
+.psychic {
+    background-color: #f95587;
+}
+
+.bug {
+    background-color: #a6b91a;
+}
+
+.rock {
+    background-color: #b6a136;
+}
+
+.ghost {
+    background-color: #735797;
+}
+
+.dragon {
+    background-color: #6f35fc;
+}
+
+.dark {
+    background-color: #705746;
+}
+
+.steel {
+    background-color: #b7b7ce;
+}
+
+.fairy {
+    background-color: #d685ad;
+}
+
+/* ------------------------------------ */
+
+.normalbg {
+    background-color: #7e7e64;
+}
+
+.firebg {
+    background-color: #a54719;
+}
+
+.waterbg {
+    background-color: #456a92;
+}
+
+.electricbg {
+    background-color: #cca525;
+}
+
+.grassbg {
+    background-color: #477032;
+}
+
+.icebg {
+    background-color: #6db9d5;
+}
+
+.fightingbg {
+    background-color: #79221d;
+}
+
+.poisonbg {
+    background-color: #682a68;
+}
+
+.groundbg {
+    background-color: #9b897b;
+}
+
+.flyingbg {
+    background-color: #7b62a3;
+}
+
+.psychicbg {
+    background-color: #ca4a64;
+}
+
+.bugbg {
+    background-color: #8e935b;
+}
+
+.rockbg {
+    background-color: #8b6d4f;
+}
+
+.ghostbg {
+    background-color: #55407c;
+}
+
+.dragonbg {
+    background-color: #4f1f87;
+}
+
+.darkbg {
+    background-color: #5a493e;
+}
+
+.steelbg {
+    background-color: #858585;
+}
+
+.fairybg {
+    background-color: #ce72ae;
+}
